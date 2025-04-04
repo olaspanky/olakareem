@@ -37,6 +37,9 @@ import spawn from "./spawn.png";
 import tlight from "./tlight.png";
 import versus from "./versus.png";
 import Sonus from "./sonus.png";
+import pbrlogo from "./logo.png";
+import lpi from "./lpi.png";
+import plogo from "./plogo.svg";
 
 export {
   logo,
@@ -73,6 +76,6 @@ export {
   spawn,
   tlight,
   versus,
-  Sonus,
+  Sonus,pbrlogo, lpi, plogo
   
 };

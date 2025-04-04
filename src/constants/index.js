@@ -30,7 +30,7 @@ import {
   spawn,
   tlight,
   versus,
-  Sonus,
+  Sonus,pbrlogo, plogo, lpi
 } from "../assets";
 import { v } from "maath/dist/misc-7d870b3c.esm";
 
@@ -127,7 +127,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "PBR Life Sciences",
-    icon: starbucks,
+    icon: pbrlogo,
     iconBg: "#383E56",
     date: "january 2022 - Present",
     points: [
@@ -141,7 +141,7 @@ const experiences = [
   {
     title: "Frontend Engineer/Tutor",
     company_name: "Linux Professional Institute",
-    icon: tesla,
+    icon: lpi,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -154,7 +154,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Prosolar Energy",
-    icon: shopify,
+    icon: plogo,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -164,29 +164,17 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ 
 ];
 
 const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Kareem proved me wrong.",
-    name: "Mr Owolabi Lee",
+    name: "Mr Owolabi",
     designation: "CEO",
     company: "Prosolar Energy",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "",
   },
   {
     testimonial:
@@ -194,7 +182,7 @@ const testimonials = [
     name: "Mr Temitope",
     designation: "COO",
     company: "jBC ",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "",
   },
   {
     testimonial:
@@ -202,7 +190,7 @@ const testimonials = [
     name: "Seun",
     designation: "PM",
     company: "PBR Life Sciences",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "",
   },
 ];
 
